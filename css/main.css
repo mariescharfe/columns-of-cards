@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -12,22 +13,67 @@ html {
 a {
   text-decoration: none;
   padding: .5em;
-  border-radius: 8px;
+  border-radius: 5px;
   display: inline-block;
 }
 
 .btn {
   display: inline-block;
   background-color: #333;
-  color: #fff;
+  color: #f2f2f2;
   border-width: 3px;
-  font-size: 1.125rem;
 }
 
 .btn:hover {
   background-color: #000;
+  color: #f2f2f2;
 }
 
 .btn-small {
   font-size: .875rem;
+}
+
+/* body and type */
+
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-size: .875rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: .875rem;
+  font-weight: normal;
+}
+
+.author {
+  font-style: italic;
+}
+
+/* dividing sections */
+
+.first {
+
+}
+
+.second {
+
+}
+
+.third {
+
+}
+
+.fourth {
+  
 }
