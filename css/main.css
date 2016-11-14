@@ -22,6 +22,7 @@ a {
   background-color: #333;
   color: #f2f2f2;
   border-width: 3px;
+  margin: 1.5rem;
 }
 
 .btn:hover {
@@ -47,33 +48,69 @@ h2 {
 }
 
 h3 {
-  font-size: .875rem;
+  font-size: 1rem;
   font-weight: bold;
+  margin: .25rem;
 }
 
 p {
-  font-size: .875rem;
+  font-size: 1rem;
   font-weight: normal;
+  margin: .25rem;
 }
 
 .author {
   font-style: italic;
 }
 
+section {
+  padding: 1.5rem;
+  padding-top: 0;
+}
+
 /* dividing sections */
 
 .first {
-
+  background-color: #e2e2e2;
+  float: left;
+  width: 25%;
+  padding: .75rem;
+  overflow: hidden;
+  border-left: 1px solid #333;
 }
 
 .second {
-
+  background-color: #ccc;
+  float: left;
+  width: 25%;
+  padding: .75rem;
+  overflow: hidden;
+  border-left: 1px solid #333;
 }
 
 .third {
-
+  background-color: #aaa;
+  float: left;
+  width: 25%;
+  padding: .75rem;
+  overflow: hidden;
+  border-left: 1px solid #333;
 }
 
 .fourth {
-  
+  background-color: #999;
+  float: left;
+  width: 25%;
+  padding: .75rem;
+  overflow: hidden;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+/* image */
+
+img {
+  width: 100px;
+  display: block;
+  margin: 0 auto 1.5rem;
 }
